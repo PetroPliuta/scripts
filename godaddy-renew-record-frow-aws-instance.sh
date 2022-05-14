@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # get AWS instance ip address
 ipv4=$(curl -s 169.254.169.254/latest/meta-data/public-ipv4)
 ipv6=$(curl -s 169.254.169.254/latest/meta-data/ipv6)
